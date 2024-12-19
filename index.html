@@ -18,9 +18,9 @@
 
 <body>
     <nav class="navbar navbar-expand-lg fixed-top navbar-dark px-5">
-        <div class="container-fluid">
+        <div class="container">
             <img src="./logo@2x.png" alt="">
-            <a class="navbar-brand fw-bolder p-1 fs-5" href="index.html">Weather</a>
+            <a class="navbar-brand fw-bolder ms-2 fs-5" href="index.html">Weather</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -47,38 +47,48 @@
             </div>
         </div>
     </nav>
-    <section class="vh-100 d-flex align-items-center justify-content-center">
+    <section class="pb-5">
         <div class="container">
             <div class="input-group mb-5">
                 <input type="text" class="form-control back bg-dark border border-0 rounded-start-pill p-3 text-white"
                     placeholder="Find Your Location ..." id="location">
-                <button id="find" class="btn  border border-0 bg-info text-white px-5 rounded-end-pill fw-semibold" type="button"
-                    id="button-addon2">Find</button>
+                <button id="find" class="btn  border border-0 bg-info text-white px-5 rounded-end-pill fw-semibold"
+                    type="button" id="button-addon2">Find</button>
             </div>
-            <div class="row" id="card">
-                
+            <div class="row g-5" id="card">
+
             </div>
+        </div>
     </section>
-    <footer class="bg-dark position-relative">
-        <div class="container px-5 pt-4">
-            <div class="input-group w-50 ">
-                <input type="text"
-                    class="form-control back bg-dark border border-1 border-end-0 rounded-start-pill ps-3 py-2"
-                    placeholder="Enter your email to subscribe">
-                <button class="btn border border-0 bg-info text-white px-5 rounded-end-pill fw-semibold" type="button"
-                    id="button-addon2">Subscribe</button>
+    <footer class="bg-dark pb-5">
+        <div class="container px-5 pt-5">
+            <div class="row">
+                <div class="col-md-6 mb-3">
+                    <div class="input-group">
+                        <input type="text"
+                            class="form-control back bg-dark border border-1 border-end-0 rounded-start-pill ps-3 py-2"
+                            placeholder="Enter your email to subscribe">
+                        <button class="btn border border-0 bg-info text-white px-5 rounded-end-pill fw-semibold"
+                            type="button" id="button-addon2">Subscribe</button>
+                    </div>
+                </div>
+                <div class="col-md-6 justify-content-center">
+                    <ul class="list-unstyled">
+                        <li class="d-inline-block text-info border border-0 rounded-circle bg-black py-2 px-3 me-1"><i
+                                class="fa-brands fa-facebook-f"></i></li>
+                        <li class="d-inline-block text-info border border-0 rounded-circle bg-black py-2 px-3 me-1"><i
+                                class="fa-brands fa-twitter"></i></li>
+                        <li class="d-inline-block text-info border border-0 rounded-circle bg-black py-2 px-3 me-1"><i
+                                class="fa-brands fa-google-plus-g"></i></li>
+                        <li class="d-inline-block text-info border border-0 rounded-circle bg-black py-2 px-3"><i
+                                class="fa-brands fa-pinterest"></i></li>
+                    </ul>
+                </div>
+                <div>
+                    <p class="text-secondary">Copyright 2014 Company name. Designed by Themezy. All rights reserved
+                    </p>
+                </div>
             </div>
-            <p class="text-secondary mt-4">Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
-            <ul class="list-unstyled position-absolute">
-                <li class="d-inline-block text-info border border-0 rounded-circle bg-black py-2 px-3 me-1"><i
-                        class="fa-brands fa-facebook-f"></i></li>
-                <li class="d-inline-block text-info border border-0 rounded-circle bg-black py-2 px-3 me-1"><i
-                        class="fa-brands fa-twitter"></i></li>
-                <li class="d-inline-block text-info border border-0 rounded-circle bg-black py-2 px-3 me-1"><i
-                        class="fa-brands fa-google-plus-g"></i></li>
-                <li class="d-inline-block text-info border border-0 rounded-circle bg-black py-2 px-3"><i
-                        class="fa-brands fa-pinterest"></i></li>
-            </ul>
         </div>
     </footer>
 

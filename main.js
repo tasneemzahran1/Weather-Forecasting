@@ -51,7 +51,7 @@ function displayWeather() {
                             <div class="card-body bg-body-secondary" style="height: 225px;">
                                 <blockquote class="blockquote mb-0 text-center">
                                     <img src="${alldays[i].day.condition.icon}" class="mb-4">
-                                    <p class="fs-3 fw-semibold text-dark">
+                                    <p class="fs-3 fw-semibold text-dark mb-0">
                                         ${alldays[i].day.maxtemp_c}</p>
                                     <p class="fs-5 text-secondary">${alldays[i].day.mintemp_c}</p>
                                     <p class="fs-6 text-danger">${alldays[i].day.condition.text}

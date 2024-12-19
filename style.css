@@ -8,19 +8,20 @@ section {
 }
 nav img{
     width:50px;
-    margin-right:10px;
-    margin-left:100px;
+    
 }
-nav ul{
-    margin-right:100px;
-}
+
 .back::placeholder{
     color: white;
 }
-footer{
-    height:150px;
-}
-footer ul{
+
+/* footer ul{
     top:15%;
     right:15%;
+} */
+section input{
+    margin-top: 150px;
+}
+section button{
+    margin-top: 150px;
 }
