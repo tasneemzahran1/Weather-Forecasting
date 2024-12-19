@@ -1,0 +1,26 @@
+section {
+    background-image: url(./Premium\ Photo\ _\ Aswan\ sunset\ scenery\ view\ of\ the\ Nile\ and\ traditional\ boats\ Egypt.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    background-color: rgba(0, 0, 0, 0.507);
+}
+nav img{
+    width:50px;
+    margin-right:10px;
+    margin-left:100px;
+}
+nav ul{
+    margin-right:100px;
+}
+.back::placeholder{
+    color: white;
+}
+footer{
+    height:150px;
+}
+footer ul{
+    top:15%;
+    right:15%;
+}
