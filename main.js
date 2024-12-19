@@ -2,7 +2,7 @@ getWeather("Newark")
 var response;
 var alldays = [];
 async function getWeather(city) {
-    var x = await fetch(`http://api.weatherapi.com/v1/forecast.json?key=54a065deece34cc1b0e180559241812&q=${city}&days=3`)
+    var x = await fetch(`https://api.weatherapi.com/v1/forecast.json?key=54a065deece34cc1b0e180559241812&q=${city}&days=3`)
     if (x.ok) {
         response = await x.json()
         console.log(response)
